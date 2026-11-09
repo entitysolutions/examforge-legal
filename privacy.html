@@ -15,7 +15,7 @@
 <p>None of this is synced to iCloud or to your other devices, and we can't see it. If you back up your iPhone to iCloud or a computer, the backup may include it. That copy is held by Apple or on your computer, and we can't read it.</p>
 <h2>What leaves your iPhone</h2>
 <p>The app contacts our server to check for new or corrected exam files and to download them. It checks when you open the app, at most once a day, and when you pull down in the exam picker. It downloads the exam you pick and updates to the exam you are studying. It doesn't do this in the background.</p>
-<p>Like any website, the server sees your IP address and the request itself, such as which file was asked for and when. The company hosting the server can see those same details. Nothing in the request identifies you or your progress, and your answers, sessions, bookmarks and profile are never sent. There is no account, identifier, cookie or tracking code involved.</p>
+<p>Like any website, the server sees your IP address and the request itself, such as which file was asked for and when. The company hosting the server can see those same details. To make sure a request comes from the ExamForge app, your iPhone uses Apple's App Attest, which creates a key that stays on your iPhone; our server keeps only its public half, the time it was added and a counter that stops old requests being reused. That key isn't linked to you or your progress. To limit abuse, the server keeps a daily count of requests for each key and for a scrambled form of each IP address, and deletes those counts after a day. Your answers, sessions, bookmarks and profile are never sent. There is no account, cookie, advertising identifier or tracking code involved.</p>
 <p>Some exams are built into the app and any exam on your iPhone works with no connection, so you can practice without one. Two things you choose to do can also reach someone else:</p>
 <ul>
 <li><strong>Opening a link.</strong> "Official exam objectives", "Read more" and the web copies of this policy and the terms open in your browser. The site you reach sees what any website sees, such as your IP address, and its own privacy policy applies. Our own pages have no tracking code, but the company hosting them can see those same details.</li>
@@ -32,7 +32,7 @@
 </ul>
 <h2>Deleting your data</h2>
 <p>To delete everything, open Settings, go to Your Data and tap Erase All Progress. That removes your answers, sessions, saved mock exams, bookmarks, streak and profile from this iPhone and cancels your reminder. It can't be undone. Deleting the app removes them too. A backup you already made keeps its copy until that backup is replaced or deleted. Downloaded exam files hold nothing about you, and they stay until you delete the app.</p>
-<p>We hold no copy of your progress, so there is nothing for us to delete and no account to close. To have a support email deleted, write to us at <a href="mailto:support@entitysolutions.co">support@entitysolutions.co</a>.</p>
+<p>We hold no copy of your progress, so there is nothing for us to delete and no account to close. The app key record described above holds no name, email or progress, and it stays on our server after you delete the app. To have a support email deleted, write to us at <a href="mailto:support@entitysolutions.co">support@entitysolutions.co</a>.</p>
 <h2>Children</h2>
 <p>ExamForge isn't aimed at children. The app sends us no progress and nothing that identifies anyone, of any age.</p>
 <h2>Changes</h2>
